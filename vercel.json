@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "lobstermagic",
+  "builds": [
+    {
+      "src": "landing/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/landing/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/landing/index-v2.html"
+    }
+  ]
+}
