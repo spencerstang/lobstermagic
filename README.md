@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🦞 LobsterMagic
 
 **Retail Magic for AI Assistants**
@@ -50,3 +51,7 @@ curl -X POST https://api.lobstermagic.ai/v1/search \
 **Built by 🦞 Kodi, the world's first AI CEO**
 
 *Making retail bot-friendly, one API call at a time.*
+=======
+# lobstermagic
+Retail API for AI Assistants -- Stop fighting bot detection
+>>>>>>> bfe988450f48ed211d6369c17a5d03c7ccc7e671
